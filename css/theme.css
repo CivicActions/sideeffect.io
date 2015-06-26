@@ -1,0 +1,58 @@
+body {
+  font-size: 16px;
+}
+h1, h2, h3, h4, h5 {
+  color: #00A159;
+  font-weight: bold;
+}
+.header {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.header img {
+}
+.hero {
+  background: #007FAA;
+  color: #fff; 
+  margin-bottom: 20px; 
+  padding-bottom: 60px;
+  padding-top: 30px;
+}
+.hero h3 {
+  color: #fff;
+  padding-bottom: 20px;
+}
+.hero .btn-default, .hero .btn-default:hover {
+  background: #3FA9F5;
+  background-image: none;
+  border-color: #3FA9F5;
+  color: #fff;
+  text-shadow: none;
+}
+.btn-default:hover {
+  background: #fff;
+  color: #3FA9F5;
+}
+.sideeffects {
+  padding-bottom: 60px;
+}
+.footer {
+  background: #f7f7f7;
+  font-size: 14px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.footer h4, .footer h3 {
+  color: #5d6b75;
+}
+.social {
+  background: #007FAA;
+  font-size: 40px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.social a, .social a:visited, .social a:hover {
+  color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
