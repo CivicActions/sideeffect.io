@@ -10,6 +10,9 @@ h1, h2, h3, h4, h5 {
   padding-top: 20px;
 }
 .header img {
+  max-width: 275px;
+  height: auto;
+  width: 100%;
 }
 .hero {
   background: #007FAA;
