@@ -5,6 +5,12 @@ h1, h2, h3, h4, h5 {
   color: #00A159;
   font-weight: bold;
 }
+hr {
+  border-top: 1px solid #cecece;
+}
+big {
+  font-size: 26px;
+}
 .header {
   padding-bottom: 20px;
   padding-top: 20px;
@@ -18,7 +24,7 @@ h1, h2, h3, h4, h5 {
   background: #007FAA;
   color: #fff; 
   margin-bottom: 20px; 
-  padding-bottom: 60px;
+  padding-bottom: 50px;
   padding-top: 30px;
 }
 .hero h3 {
@@ -38,6 +44,9 @@ h1, h2, h3, h4, h5 {
 }
 .sideeffects {
   padding-bottom: 60px;
+}
+.contact {
+  padding-bottom: 40px;
 }
 .footer {
   background: #f7f7f7;
