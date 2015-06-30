@@ -11,6 +11,16 @@ hr {
 big {
   font-size: 26px;
 }
+.alert-danger {
+  background-color: #f7f7f7;
+  background-image: none;
+  border-color: #cecece;
+  color: #5d6b75;
+}
+.alert-danger ul {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
 .header {
   padding-bottom: 20px;
   padding-top: 20px;
@@ -32,18 +42,19 @@ big {
   padding-bottom: 20px;
 }
 .hero .btn-default, .hero .btn-default:hover {
-  background: #3FA9F5;
+  background: #404C54;
   background-image: none;
-  border-color: #3FA9F5;
+  border-color: #404C54;
   color: #fff;
   text-shadow: none;
+  text-transform: uppercase;
 }
 .btn-default:hover {
   background: #fff;
   color: #3FA9F5;
 }
 .sideeffects {
-  padding-bottom: 60px;
+  padding-bottom: 30px;
 }
 .contact {
   padding-bottom: 40px;
@@ -56,6 +67,7 @@ big {
 }
 .footer h4, .footer h3 {
   color: #5d6b75;
+  padding-top: 10px;
 }
 .social {
   background: #007FAA;
