@@ -41,13 +41,17 @@ big {
   color: #fff;
   padding-bottom: 20px;
 }
-.hero .btn-default, .hero .btn-default:hover {
+.hero .btn-default, .hero .btn-default:hover, .navbar .btn-default, .navbar .btn-default:hover {
   background: #404C54;
   background-image: none;
   border-color: #404C54;
   color: #fff;
   text-shadow: none;
   text-transform: uppercase;
+}
+.navbar .btn-default, .navbar .btn-default:hover {
+  background: #00A159;
+  border-color: #00A159;
 }
 .btn-default:hover {
   background: #fff;
@@ -72,11 +76,19 @@ big {
 .social {
   background: #007FAA;
   font-size: 40px;
-  padding-bottom: 10px;
+  padding-bottom: 60px;
   padding-top: 10px;
 }
 .social a, .social a:visited, .social a:hover {
   color: #fff;
   margin-left: 10px;
   margin-right: 10px;
+}
+.navbar {
+  background: #f7f7f7;
+  border-color: #cecece;
+}
+.navbar p {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
